@@ -373,7 +373,7 @@ img {
     }
 
     .form-section__company-label-heading {
-        margin: 25px 0 5px 0;
+        margin: 50px 0 5px 0;
     }
 
     .form-section__phone-label-heading {
@@ -405,52 +405,52 @@ img {
     }
 
     .form-section__company-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__phone-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__label-trucks-select {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__mailing-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__number-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__city-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__states-select {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__zip-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__inform-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
     .form-section__mail-input {
-        padding: 5px;
+        padding: 7px;
         font-size: 8px;
     }
 
@@ -482,11 +482,6 @@ img {
         margin-left: 15px;
         font-weight: 400;
         font-size: 14px;
-    }
-
-    label {
-        padding: 0;
-        margin: 0;
     }
 
     .site-header__heading {
