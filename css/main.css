@@ -1,0 +1,388 @@
+/* GENERAL */
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column-reverse;
+    vertical-align: bottom;
+    width: 100%;
+    height: 300px;
+    max-width: 1440px;
+    background-image: url(https://picsum.photos/1440/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: grey;
+}
+
+.site-header__heading {
+    margin: 0 0 20px 0;
+    color: #fff;
+    text-align: end;
+}
+
+.site-main {
+    padding-bottom: 50px;
+}
+
+.form-section__company-label-heading {
+    margin: 50px 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__company-input {
+    width: 100%;
+    max-width: 60%;
+    padding: 14px;
+    background-color: seashell;
+}
+
+.form-section__company-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__phone-label-heading {
+    margin: 50px 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__phone-input {
+    width: 100%;
+    max-width: 30%;
+    padding: 14px;
+    background-color: seashell;
+}
+
+.form-section__phone-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__label-trucks-wrapper {
+    width: 100%;
+    max-width: 36%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.form-section__select-heading {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__label-trucks-select {
+    padding: 14px 50px 14px 10px;
+    background-color: seashell;
+}
+
+.form-section__label-trucks-select:focus:valid {
+    background-color: aliceblue;
+}
+
+.form-section__mailing-heading {
+    margin: 50px 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__mailing-input {
+    width: 100%;
+    max-width: 70%;
+    padding: 14px;
+    background-color: seashell;
+}
+
+.form-section__mailing-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__label-wrapp {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 25px 0;
+}
+
+.form-section__city-heading {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__city-input {
+    padding: 12.5px;
+    background-color: seashell;
+}
+
+.form-section__city-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__states-heading {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__states-select {
+    padding: 13.5px;
+    background-color: seashell;
+}
+
+.form-section__states-select:focus:valid {
+    background-color: aliceblue;
+}
+
+.form-section__zip-heading {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__zip-input {
+    padding: 13px;
+    background-color: seashell;
+}
+
+.form-section__zip-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__slogan-wrapper {
+    display: -moz-inline-stack;
+    background-color: rgb(245, 123, 74);
+    width: 100%;
+    max-width: 100%;
+}
+
+.form-section__slogan {
+    margin-left: 30px;
+    padding: 24px 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.form-section__inform-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 70%;
+    padding-top: 25px;
+}
+
+.form-section__inform-heading {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__inform-input {
+    padding: 12.5px 50px 12.5px 20px;
+    background-color: seashell;
+}
+
+.form-section__inform-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__mail-heading {
+    margin: 50px 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__mail-input {
+    width: 100%;
+    max-width: 70%;
+    background-color: seashell;
+    padding: 14px;
+}
+
+.form-section__mail-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__number-heading {
+    margin: 50px 0 10px 0;
+    font-weight: normal;
+}
+
+.form-section__number-input {
+    width: 100%;
+    max-width: 40%;
+    padding: 14px;
+    background-color: seashell;
+}
+
+.form-section__number-input:placeholder-shown:focus {
+    background-color: aliceblue;
+}
+
+.form-section__button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.form-section__button {
+    background-color: rgb(71, 132, 194);
+    font-size: 26px;
+    color: #fff;
+    border: none;
+    padding: 14px 55px;
+    transition: 300ms;
+}
+
+.form-section__button:hover {
+    background-color: rgb(60, 115, 171);
+}
+
+@media only screen and (max-width:850px) {
+    .form-section__inform-wrapper {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .form-section__inform-wrapper>*:nth-child(1) {
+        padding-bottom: 50px;
+    }
+
+    .form-section__inform-input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:765px) {
+    .site-header {
+        height: 150px;
+    }
+
+    .site-header__heading {
+        font-size: 20px;
+        margin: 0 0 10px 0;
+    }
+
+    .form-section__label-trucks-wrapper {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .form-section__label-trucks-wrapper>*:nth-child(1) {
+        padding-bottom: 50px;
+    }
+
+    .form-section__label-trucks-select {
+        width: 100%;
+    }
+
+    .form-section__label-wrapp {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .form-section__label-wrapp>*:nth-child(2) {
+        padding: 50px 0;
+    }
+
+    .form-section__city-input {
+        width: 100%;
+    }
+
+    .form-section__states-select {
+        width: 100%;
+    }
+
+    .form-section__zip-input {
+        width: 100%;
+    }
+
+    .form-section__company-input {
+        max-width: 100%;
+    }
+
+    .form-section__phone-input {
+        max-width: 100%;
+    }
+
+    .form-section__mailing-input {
+        max-width: 100%;
+    }
+
+    .form-section__mail-input {
+        max-width: 100%;
+    }
+
+    .form-section__number-input {
+        max-width: 100%;
+    }
+
+    .form-section__button {
+        width: 100%;
+        font-size: 22px;
+        letter-spacing: 2.2px;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .site-header {
+        height: 80px;
+    }
+
+    .site-header__heading {
+        font-size: 12px;
+        margin: 0 0 5px 0;
+    }
+
+    .form-section__slogan {
+        margin-left: 30px;
+        padding: 16px 0;
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .form-section__button {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        padding: 10px 0;
+    }
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Cards Application</title>
+    <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="site-header container">
+        <nav class="site-header__nav">
+            <h2 class="site-header__heading">Fuel Cards Application</h2>
+        </nav>
+    </header>
+
+    <main class="site-main container">
+        <section class="form-section">
+            <form class="form-section__form" action="https://echo.htmlacademy.ru" target="_blank">
+                <label for="company">
+                    <h2 class="form-section__company-label-heading">Company name</h2>
+                    <input class="form-section__company-input" type="text" required id="company"
+                        placeholder="Enter a company Name" name="company_name">
+                </label>
+
+                <label for="mainNumber">
+                    <h3 class="form-section__phone-label-heading">Main phone number</h3>
+                    <input class="form-section__phone-input" type="tel" required id="mainNumber"
+                        placeholder="Enter Main Phone Number" name="main_phone_number">
+                </label>
+
+                <label for="dotNumber">
+                    <h3 class="form-section__phone-label-heading">MC or DOT Number</h3>
+                    <input class="form-section__phone-input" type="tel" required id="dotNumber"
+                        placeholder="Enter MC or DOT Number" name="MC_or_DOT_Number">
+                </label>
+
+                <div class="form-section__label-trucks-wrapper">
+                    <label for="trucks">
+                        <h3 class="form-section__select-heading">Number of Trucks</h3>
+                        <select class="form-section__label-trucks-select" required name="Number_of_Trucks" id="trucks">
+                            <option disabled value="disabled"></option>
+                            <option value="number">0</option>
+                            <option value="number">1</option>
+                            <option value="number">2</option>
+                            <option value="number">3</option>
+                            <option value="number">4</option>
+                            <option value="number">5</option>
+                            <option value="number">6</option>
+                            <option value="number">7</option>
+                            <option value="number">8</option>
+                            <option value="number">9</option>
+                            <option value="number">10</option>
+                            <option value="number">11</option>
+                            <option value="number">12</option>
+                            <option value="number">13</option>
+                            <option value="number">14</option>
+                            <option value="number">15</option>
+                            <option value="number">16</option>
+                            <option value="number">17</option>
+                            <option value="number">18</option>
+                            <option value="number">19</option>
+                            <option value="number">20</option>
+                            <option value="number">21</option>
+                            <option value="number">22</option>
+                            <option value="number">23</option>
+                            <option value="number">24</option>
+                            <option value="number">25</option>
+                            <option value="number">26</option>
+                            <option value="number">27</option>
+                            <option value="number">28</option>
+                            <option value="number">29</option>
+                            <option value="number">30</option>
+                        </select>
+                    </label>
+
+                    <label for="requested">
+                        <h3 class="form-section__select-heading">Fuel Cards Requested</h3>
+                        <select class="form-section__label-trucks-select" required name="Fuel Cards Requested"
+                            id="requested">
+                            <option disabled value="disabled"></option>
+                            <option value="number">0</option>
+                            <option value="number">1</option>
+                            <option value="number">2</option>
+                            <option value="number">3</option>
+                            <option value="number">4</option>
+                            <option value="number">5</option>
+                            <option value="number">6</option>
+                            <option value="number">7</option>
+                            <option value="number">8</option>
+                            <option value="number">9</option>
+                            <option value="number">10</option>
+                            <option value="number">11</option>
+                            <option value="number">12</option>
+                            <option value="number">13</option>
+                            <option value="number">14</option>
+                            <option value="number">15</option>
+                            <option value="number">16</option>
+                            <option value="number">17</option>
+                            <option value="number">18</option>
+                            <option value="number">19</option>
+                            <option value="number">20</option>
+                            <option value="number">21</option>
+                            <option value="number">22</option>
+                            <option value="number">23</option>
+                            <option value="number">24</option>
+                            <option value="number">25</option>
+                            <option value="number">26</option>
+                            <option value="number">27</option>
+                            <option value="number">28</option>
+                            <option value="number">29</option>
+                            <option value="number">30</option>
+                        </select>
+                    </label>
+                </div>
+
+                <label for="mailing">
+                    <h3 class="form-section__mailing-heading">Mailing Adress</h3>
+                    <input class="form-section__mailing-input" type="email" id="mailing" required
+                        placeholder="Mailing Adress" name="Mailing_Adress">
+                </label>
+
+                <label for="adress">
+                    <h3 class="form-section__mailing-heading">Adress line 2</h3>
+                    <input class="form-section__mailing-input" type="email" id="adress" required
+                        placeholder="Aress line 2" name="Adress_line_2">
+                </label>
+
+                <div class="form-section__label-wrapp">
+                    <label for="city">
+                        <h3 class="form-section__city-heading">City</h3>
+                        <input class="form-section__city-input" type="text" id="city" required
+                            placeholder="Enter a City" name="City">
+                    </label>
+
+                    <label for="states">
+                        <h3 class="form-section__states-heading">State</h3>
+                        <select class="form-section__states-select" required name="state" id="states">
+                            <option disabled value="selected"></option>
+                            <option value="state">Alabama</option>
+                            <option value="state">Alaska</option>
+                            <option value="state">Arizona</option>
+                            <option value="state">Arkansas</option>
+                            <option value="state">California</option>
+                            <option value="state">Colorado</option>
+                            <option value="state">Connecticut</option>
+                            <option value="state">Delaware</option>
+                            <option value="state">Florida</option>
+                            <option value="state">Georgia</option>
+                            <option value="state">Hawaii</option>
+                            <option value="state">Idaho</option>
+                            <option value="state">Illinois</option>
+                            <option value="state">Indiana</option>
+                            <option value="state">Iowa</option>
+                            <option value="state">Kansas</option>
+                            <option value="state">Kentucky</option>
+                            <option value="state">Louisiana</option>
+                            <option value="state">Mine</option>
+                            <option value="state">Maryland</option>
+                            <option value="state">Massachusetts</option>
+                            <option value="state">Michigand</option>
+                            <option value="state">Minnesota</option>
+                            <option value="state">Mississippi</option>
+                            <option value="state">Missouri</option>
+                            <option value="state">Montana</option>
+                            <option value="state">Nebraska</option>
+                            <option value="state">Nevada</option>
+                            <option value="state">New Hampshire</option>
+                            <option value="state">New Jersey</option>
+                            <option value="state">New Mexico</option>
+                            <option value="state">New York</option>
+                            <option value="state">North Carolina</option>
+                            <option value="state">North Dakota</option>
+                            <option value="state">Ohio</option>
+                            <option value="state">Oklahoma</option>
+                            <option value="state">Oregon</option>
+                            <option value="state">Pennsylvania</option>
+                            <option value="state">Rhode Island</option>
+                            <option value="state">South Carolina</option>
+                            <option value="state">South Dakota</option>
+                            <option value="state">Tennessee</option>
+                            <option value="state">Texas</option>
+                            <option value="state">Utah</option>
+                            <option value="state">Vermont</option>
+                            <option value="state">Virginia</option>
+                            <option value="state">Washington</option>
+                            <option value="state">West Virginia</option>
+                            <option value="state">Wisconsin</option>
+                            <option value="state">Wyoming</option>
+                        </select>
+                    </label>
+
+                    <label for="zip">
+                        <h3 class="form-section__zip-heading">Zip Code</h3>
+                        <input class="form-section__zip-input" type="password" required placeholder="12345" id="zip"
+                            name="zip_code">
+                    </label>
+                </div>
+
+                <div class="form-section__slogan-wrapper">
+                    <h3 class="form-section__slogan">Primary Billing Contact</h3>
+                </div>
+
+                <div class="form-section__inform-wrapper">
+                    <label for="first">
+                        <h3 class="form-section__inform-heading">Firs Name</h3>
+                        <input class="form-section__inform-input" type="text" id="first" required
+                            placeholder="First Name" name="First_Name">
+                    </label>
+
+                    <label for="last">
+                        <h3 class="form-section__inform-heading">Last Name</h3>
+                        <input class="form-section__inform-input" type="text" id="last" required placeholder="Last Name"
+                            name="Last_Name">
+                    </label>
+                </div>
+
+                <label for="mail">
+                    <h3 class="form-section__mail-heading">Email Adress</h3>
+                    <input class="form-section__mail-input" type="email" id="mail" required placeholder="Email Adress"
+                        name="Email_Adress">
+                </label>
+
+                <label for="title">
+                    <h3 class="form-section__mail-heading">Title</h3>
+                    <input class="form-section__mail-input" type="text" id="title" required placeholder="Title"
+                        name="Title">
+                </label>
+
+                <label for="number">
+                    <h3 class="form-section__number-heading">Phone Number</h3>
+                    <input class="form-section__number-input" type="tel" id="number" required placeholder="Phone Number"
+                        name="Phone_Number">
+                </label>
+
+                <div class="form-section__button-wrapper">
+                    <button class="form-section__button" type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
