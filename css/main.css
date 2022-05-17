@@ -187,7 +187,6 @@ img {
 }
 
 .form-section__slogan-wrapper {
-    display: -moz-inline-stack;
     background-color: rgb(245, 123, 74);
     width: 100%;
     max-width: 100%;
@@ -363,8 +362,131 @@ img {
 }
 
 @media only screen and (max-width:425px) {
+
+    h2,
+    h3 {
+        font-size: 12px;
+    }
+
     .site-header {
         height: 80px;
+    }
+
+    .form-section__company-label-heading {
+        margin: 25px 0 5px 0;
+    }
+
+    .form-section__phone-label-heading {
+        margin: 25px 0 5px 0;
+    }
+
+    .form-section__label-trucks-wrapper {
+        padding-top: 25px;
+    }
+
+    .form-section__mailing-heading {
+        margin: 25px 0 5px 0;
+    }
+
+    .form-section__label-wrapp {
+        padding: 25px 0 12.5px 0;
+    }
+
+    .form-section__inform-wrapper {
+        padding-top: 0px;
+    }
+
+    .form-section__label-trucks-wrapper>*:nth-child(1) {
+        padding-bottom: 25px;
+    }
+
+    .form-section__label-wrapp>*:nth-child(2) {
+        padding: 25px 0;
+    }
+
+    .form-section__company-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__phone-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__label-trucks-select {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__mailing-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__number-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__city-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__states-select {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__zip-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__inform-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__mail-input {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-section__mail-heading {
+        margin: 25px 0 5px 0;
+    }
+
+    .form-section__number-heading {
+        margin: 25px 0 5px 0;
+    }
+
+    .form-section__button-wrapper {
+        padding-top: 25px;
+    }
+
+    .form-section__button {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        padding: 5px 0;
+    }
+
+    .form-section__inform-wrapper>*:nth-child(1) {
+        padding-bottom: 25px;
+    }
+
+    .form-section__slogan {
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    label {
+        padding: 0;
+        margin: 0;
     }
 
     .site-header__heading {
@@ -372,17 +494,7 @@ img {
         margin: 0 0 5px 0;
     }
 
-    .form-section__slogan {
-        margin-left: 30px;
-        padding: 16px 0;
-        color: #fff;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    .form-section__button {
-        font-size: 18px;
-        letter-spacing: 1.5px;
-        padding: 10px 0;
+    .site-main {
+        padding-bottom: 25px;
     }
 }
