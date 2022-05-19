@@ -274,6 +274,30 @@ img {
     background-color: rgb(60, 115, 171);
 }
 
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .signature-pad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:400px;
+    height:200px;
+  }
+
+
 @media only screen and (max-width:850px) {
     .form-section__inform-wrapper {
         flex-direction: column;

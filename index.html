@@ -8,9 +8,11 @@
     <title>Fuel Cards Application</title>
     <link rel="stylesheet" href="css/normolize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/signature-pad.css">
 </head>
 
 <body>
+
     <header class="site-header container">
         <nav class="site-header__nav">
             <h2 class="site-header__heading">Fuel Cards Application</h2>
@@ -236,12 +238,29 @@
                         name="Phone_Number">
                 </label>
 
+                <h1>
+                    Draw over image
+                </h1>
+                <div class="wrapper">
+
+                    <canvas style="border: 2px solid seashell;" id="signature-pad" class="signature-pad" width=400
+                        height=200></canvas>
+                </div>
+                <div>
+                    <button id="save">Save</button>
+                    <button id="clear">Clear</button>
+                </div>
+
                 <div class="form-section__button-wrapper">
                     <button class="form-section__button" type="submit">Submit</button>
                 </div>
             </form>
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
