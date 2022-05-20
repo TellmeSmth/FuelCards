@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 /* GENERAL */
 html {
     box-sizing: border-box;
@@ -258,7 +260,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 .form-section__button {
@@ -274,29 +276,41 @@ img {
     background-color: rgb(60, 115, 171);
 }
 
-.wrapper {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  img {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-  
-  .signature-pad {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width:400px;
-    height:200px;
-  }
 
+.form-section__signature-heading {
+    margin: 0;
+    font-weight: normal;
+    margin: 50px 0 10px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas#signature-pad {
+    border-top: 2px solid rgb(33, 33, 33);
+    border-left: 2px solid rgb(33, 33, 33);
+    border-bottom: 2px solid rgb(118, 118, 118);
+    border-right: 2px solid rgb(118, 118, 118);
+    cursor: crosshair;
+}
+
+.clear-btn {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+button#clear {
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
 @media only screen and (max-width:850px) {
     .form-section__inform-wrapper {
@@ -384,6 +398,9 @@ img {
         padding: 10px 0;
     }
 }
+@media only screen and (max-width:500px) {
+    
+} 
 
 @media only screen and (max-width:425px) {
 
